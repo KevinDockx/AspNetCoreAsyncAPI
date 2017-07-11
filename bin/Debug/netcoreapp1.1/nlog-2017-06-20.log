@@ -1,0 +1,65 @@
+2017-06-20 10:46:42.7586|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2017-06-20 10:46:43.3767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-20 10:46:43.3767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-20 10:46:43.5027|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 141.7131ms 500 
+2017-06-20 10:46:43.5147|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 141.4553ms 500 
+2017-06-20 10:46:43.5147|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-20 10:46:43.5657|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.0223ms 500 text/html; charset=utf-8
+2017-06-20 10:46:48.0540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/5/pointsofinterest application/json 
+2017-06-20 10:46:48.0540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7614ms 500 text/html; charset=utf-8
+2017-06-20 10:47:07.1590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-20 10:47:07.1590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-20 10:47:07.3280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 204.8266ms 200 
+2017-06-20 10:47:07.5080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 397.9085ms 404 text/plain
+2017-06-20 10:47:07.5270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-20 10:47:07.5270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6262ms 404 text/plain
+2017-06-20 10:47:09.1451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/5/pointsofinterest application/json 
+2017-06-20 10:47:09.3811|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Contollers.PointsOfInterestsController.GetPointsOfInterests (Filenet.Apis) with arguments (5) - ModelState is Valid
+2017-06-20 10:47:09.4321|FATAL|Filenet.Apis.Contollers.PointsOfInterestsController|Exception while getting points of interest for city with id 5.
+2017-06-20 10:47:09.4621|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-06-20 10:47:09.4821|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Contollers.PointsOfInterestsController.GetPointsOfInterests (Filenet.Apis) in 276.395ms
+2017-06-20 10:47:09.4921|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 348.7411ms 500 text/plain; charset=utf-8
+2017-06-20 11:25:00.7181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-20 11:25:00.7181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-20 11:25:00.8881|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 212.1359ms 200 
+2017-06-20 11:25:01.0931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 406.1931ms 404 text/plain
+2017-06-20 11:25:01.0931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-20 11:25:01.1091|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.7448ms 404 text/plain
+2017-06-20 11:25:09.5060|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:23859/api/cities/1/pointsofinterest/1 application/json 90
+2017-06-20 11:25:09.7380|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Contollers.PointsOfInterestsController.DeletePointOfInterest (Filenet.Apis) with arguments (1, 1) - ModelState is Valid
+2017-06-20 11:25:09.7550|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2017-06-20 11:25:09.7670|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Contollers.PointsOfInterestsController.DeletePointOfInterest (Filenet.Apis) in 199.871ms
+2017-06-20 11:25:09.7750|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 267.1162ms 204 
+2017-06-20 13:58:22.7586|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-20 13:58:22.7586|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-20 13:58:22.9777|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 253.8246ms 200 
+2017-06-20 13:58:23.2007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 471.9762ms 404 text/plain
+2017-06-20 13:58:23.2007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-20 13:58:23.2297|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.998ms 404 text/plain
+2017-06-20 13:58:25.6179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/testdatabase application/json 
+2017-06-20 13:58:38.4962|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2,512ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2017-06-20 13:58:39.7503|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1,248ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;');
+2017-06-20 13:58:40.1364|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (196ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Description] nvarchar(max),
+    [Name] nvarchar(max),
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2017-06-20 13:58:40.2154|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [CityId] int NOT NULL,
+    [Description] nvarchar(200),
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2017-06-20 13:58:40.2364|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2017-06-20 13:58:40.3034|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (Filenet.Apis) with arguments ((null)) - ModelState is Valid
+2017-06-20 13:58:40.3144|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-06-20 13:58:40.3254|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (Filenet.Apis) in 14642.9761ms
+2017-06-20 13:58:40.3254|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14711.6183ms 200 
