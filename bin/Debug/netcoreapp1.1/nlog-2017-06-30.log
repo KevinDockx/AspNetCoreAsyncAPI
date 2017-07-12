@@ -1,0 +1,227 @@
+2017-06-30 09:56:11.2529|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:56:13.1231|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-30 09:56:13.1231|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-30 09:56:13.4081|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 374.4664ms 200 
+2017-06-30 09:56:14.0562|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1031.7275ms 404 text/plain
+2017-06-30 09:56:14.1592|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-30 09:56:14.1592|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.4627ms 404 text/plain
+2017-06-30 09:56:31.6073|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/5/pointsofinterest application/json 
+2017-06-30 09:56:31.9919|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (208ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:32.0059|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:32.0547|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:56:32.1951|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) with arguments (5) - ModelState is Valid
+2017-06-30 09:56:32.5055|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (143ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:56:32.5523|INFO|Filenet.Apis.Controllers.PointsOfInterestController|City with id 5 wasn't found when accessing points of interest.
+2017-06-30 09:56:32.5523|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2017-06-30 09:56:32.5679|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) in 787.7149ms
+2017-06-30 09:56:32.5679|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 942.5777ms 404 text/plain
+2017-06-30 09:56:38.6099|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/5/pointsofinterest application/json 
+2017-06-30 09:56:38.6439|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:38.6771|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:38.6927|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:56:38.7083|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) with arguments (5) - ModelState is Valid
+2017-06-30 09:56:38.7395|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (20ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:56:38.7395|INFO|Filenet.Apis.Controllers.PointsOfInterestController|City with id 5 wasn't found when accessing points of interest.
+2017-06-30 09:56:38.7551|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2017-06-30 09:56:38.7707|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) in 127.0286ms
+2017-06-30 09:56:38.7863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.9491ms 404 text/plain
+2017-06-30 09:56:48.6834|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/1/pointsofinterest application/json 
+2017-06-30 09:56:48.6990|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:48.7432|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:48.7744|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:56:48.7900|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) with arguments (1) - ModelState is Valid
+2017-06-30 09:56:48.8056|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (17ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:56:48.9872|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (87ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+WHERE [p].[CityId] = @__cityId_0
+2017-06-30 09:56:49.1054|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-06-30 09:56:49.4496|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) in 768.3314ms
+2017-06-30 09:56:49.4998|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 775.5394ms 200 application/json; charset=utf-8
+2017-06-30 09:56:57.4827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/1/pointsofinterest application/json 
+2017-06-30 09:56:57.4837|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:57.5269|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:56:57.5581|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:56:57.5737|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) with arguments (1) - ModelState is Valid
+2017-06-30 09:56:57.6049|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (20ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:56:57.6445|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (39ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+WHERE [p].[CityId] = @__cityId_0
+2017-06-30 09:56:57.6445|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-06-30 09:56:57.6445|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) in 174.8696ms
+2017-06-30 09:56:57.6757|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 182.2973ms 200 application/json; charset=utf-8
+2017-06-30 09:57:12.1334|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PATCH http://localhost:23859/api/cities/1/pointsofinterest/1 application/json 90
+2017-06-30 09:57:12.1774|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:57:12.1774|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:57:12.2252|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:57:12.3510|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (Filenet.Apis) with arguments (1, 1, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Filenet.Apis.Models.PointOfInterestForUpdateDto]) - ModelState is Valid
+2017-06-30 09:57:12.3822|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (25ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:57:12.4506|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (17ms) [Parameters=[@__cityId_0='?', @__pointOfInterestId_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+WHERE ([p].[CityId] = @__cityId_0) AND ([p].[Id] = @__pointOfInterestId_1)
+2017-06-30 09:57:12.6380|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (49ms) [Parameters=[@p1='?', @p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [PointsOfInterest] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2017-06-30 09:57:12.6692|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2017-06-30 09:57:12.6692|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (Filenet.Apis) in 506.036ms
+2017-06-30 09:57:12.6692|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 519.351ms 204 
+2017-06-30 09:57:23.1093|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PATCH http://localhost:23859/api/cities/1/pointsofinterest/1 application/json 91
+2017-06-30 09:57:23.1249|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:57:23.1405|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 09:57:23.1717|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 09:57:23.1873|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (Filenet.Apis) with arguments (1, 1, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Filenet.Apis.Models.PointOfInterestForUpdateDto]) - ModelState is Valid
+2017-06-30 09:57:23.2185|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (17ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 09:57:23.2341|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (18ms) [Parameters=[@__cityId_0='?', @__pointOfInterestId_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+WHERE ([p].[CityId] = @__cityId_0) AND ([p].[Id] = @__pointOfInterestId_1)
+2017-06-30 09:57:23.2975|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (14ms) [Parameters=[@p1='?', @p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [PointsOfInterest] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2017-06-30 09:57:23.2975|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2017-06-30 09:57:23.2975|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterest (Filenet.Apis) in 200.4348ms
+2017-06-30 09:57:23.3125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 208.4423ms 204 
+2017-06-30 10:25:06.6714|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 10:25:08.1566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/  
+2017-06-30 10:25:08.1566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:23859/  0
+2017-06-30 10:25:08.3396|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 222.3233ms 200 
+2017-06-30 10:25:08.7716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 665.772ms 404 text/plain
+2017-06-30 10:25:08.8156|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/favicon.ico  
+2017-06-30 10:25:08.8156|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0803ms 404 text/plain
+2017-06-30 10:25:28.5929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/1/pointsofinterest/7  
+2017-06-30 10:25:28.7695|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 10:25:28.8007|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 10:25:28.8163|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 10:25:28.9929|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointOfInterest (Filenet.Apis) with arguments (1, 7) - ModelState is Valid
+2017-06-30 10:25:29.3114|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (130ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 10:25:29.4830|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (77ms) [Parameters=[@__cityId_0='?', @__pointOfInterestId_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+WHERE ([p].[CityId] = @__cityId_0) AND ([p].[Id] = @__pointOfInterestId_1)
+2017-06-30 10:25:29.5298|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2017-06-30 10:25:29.5308|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointOfInterest (Filenet.Apis) in 865.7707ms
+2017-06-30 10:25:29.5568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 940.6323ms 404 text/plain
+2017-06-30 10:25:53.0376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:23859/api/cities/6/pointsofinterest  
+2017-06-30 10:25:53.0667|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 10:25:53.1099|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-06-30 10:25:53.1255|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-06-30 10:25:53.1265|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) with arguments (6) - ModelState is Valid
+2017-06-30 10:26:01.5205|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (22ms) [Parameters=[@__cityId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[Id] = @__cityId_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-06-30 10:26:12.7407|INFO|Filenet.Apis.Controllers.PointsOfInterestController|City with id 6 wasn't found when accessing points of interest.
+2017-06-30 10:26:15.7832|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2017-06-30 10:26:15.7832|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Filenet.Apis.Controllers.PointsOfInterestController.GetPointsOfInterest (Filenet.Apis) in 22718.6595ms
+2017-06-30 10:26:15.7989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22746.0244ms 404 text/plain

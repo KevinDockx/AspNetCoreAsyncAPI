@@ -1,0 +1,21 @@
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\nlog.config
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\Filenet.Apis.deps.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\Filenet.Apis.runtimeconfig.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\Filenet.Apis.runtimeconfig.dev.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\Filenet.Apis.dll
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\bin\Debug\netcoreapp1.1\Filenet.Apis.pdb
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\obj\Debug\netcoreapp1.1\Filenet.Apis.csprojResolveAssemblyReference.cache
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\obj\Debug\netcoreapp1.1\Filenet.Apis.AssemblyInfo.cs
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\obj\Debug\netcoreapp1.1\Filenet.Apis.dll
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis\obj\Debug\netcoreapp1.1\Filenet.Apis.pdb
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\nlog.config
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\Filenet.Apis.deps.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\Filenet.Apis.runtimeconfig.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\Filenet.Apis.runtimeconfig.dev.json
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\Filenet.Apis.dll
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\bin\Debug\netcoreapp1.1\Filenet.Apis.pdb
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\obj\Debug\netcoreapp1.1\Filenet.Apis.csprojResolveAssemblyReference.cache
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\obj\Debug\netcoreapp1.1\Filenet.Apis.csproj.CoreCompileInputs.cache
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\obj\Debug\netcoreapp1.1\Filenet.Apis.AssemblyInfo.cs
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\obj\Debug\netcoreapp1.1\Filenet.Apis.dll
+C:\Users\psantiago\Downloads\DemoNET\Demo\Filenet.Apis - Copy\obj\Debug\netcoreapp1.1\Filenet.Apis.pdb
